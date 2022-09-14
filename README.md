@@ -1,0 +1,1 @@
+Aqui está disponível a pratica dos execícios para uma melhor absorção do conteúdo.git
