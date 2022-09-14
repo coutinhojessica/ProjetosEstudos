@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -61,4 +65,87 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     height: 670px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner-headLine {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-headLine h1 {
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner-headLine h2 {
+    color: #fff;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner-options {
+    height: 210px;
+    display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3 { 
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.banner1 {
+    background-color: #39aa91;
+}
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.banner-title {
+    font-size: 21px;
+}
+
+.banner-desc {
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+.banner-options a {
+    display: inline-block;
+    border:  1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.banner-atendimento {
+    font-size: 14gipx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.486);
 }
